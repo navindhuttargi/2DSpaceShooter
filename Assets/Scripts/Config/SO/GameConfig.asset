@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d9defa217fa8a4f84fac26df16857a, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 8327680364829609288, guid: 9d2568c4082a16845a15fefb42e8078b,
+    type: 3}
+  playerHealth: 3
+  playerSpawnPosition: {x: 0, y: -4, z: 0}
+  enemyConfig: {fileID: 11400000, guid: 7d9683321830fdc408c03d9cace217a2, type: 2}
+  bulletPrefab: {fileID: 4003973174898749876, guid: 6d490163cef71f249ba62351dc80d277,
+    type: 3}
+  poolLength: 150
+  powerUpConfig: {fileID: 11400000, guid: a99382365e9d9f445a39c1047490c512, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28fd26763df26c849a07fe21edb26a92, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 6380745185745025985, guid: 911d4fefc59fc9c4ca322e711d289c21, type: 3}
+  - {fileID: 7705108576325139828, guid: 27796d7f70a42dc4c9fd94446d2cec15, type: 3}
+  - {fileID: 7705108576325139828, guid: 4e1eec255c695864bb028b8af0e50051, type: 3}
+  - {fileID: 7705108576325139828, guid: d5a169e64e631a9418fb8b9dfb55c53b, type: 3}
+  - {fileID: 8292901119736294113, guid: 238b2dba68563e34fbca9858d8681ed1, type: 3}
+  repeatRate: 2
+  minVal: {x: -8, y: 8}
+  enemyCountRange: 4
+  totalEnemies: 50
+  enemyPoolLength: 3
+  SpawnRange: {x: 2, y: 5}
+  bossPrefab: {fileID: 5431146052654904115, guid: e0228d32c8f968243ba271d0552dc010,
+    type: 3}
+  bossHealth: 10000
